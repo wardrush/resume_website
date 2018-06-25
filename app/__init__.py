@@ -9,7 +9,6 @@ import os
 app = Flask(__name__)
 app.config.from_object(Config)
 mail = Mail(app)
-#bootstrap = Bootstrap(app)
 
 if not app.debug:
     if app.config['MAIL_SERVER']:
