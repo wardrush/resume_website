@@ -134,8 +134,8 @@ ul {
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active:focus {
-    background   : #2a54f5;
-    color        : #ffffff;
+    background   : #58f5f2;
+    color        : #d9a5ff;
     border-color : #2a54f5;
     }
 
@@ -371,7 +371,7 @@ button:focus,
     }
 
 .progress-item .progress-bar {
-    background-color : #ffa102;
+    background-color : #ff1100;
     box-shadow       : none;
     text-align       : right;
     }

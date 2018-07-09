@@ -1,0 +1,39 @@
+2018-07-09 11:48:34,347 INFO: Website startup [in C:\Pythonfiles\resume_website\app\__init__.py:45]
+2018-07-09 11:49:19,119 INFO: Website startup [in C:\Pythonfiles\resume_website\app\__init__.py:45]
+2018-07-09 11:53:52,676 INFO: Website startup [in C:\Pythonfiles\resume_website\app\__init__.py:45]
+2018-07-09 11:55:27,918 INFO: Website startup [in C:\Pythonfiles\resume_website\app\__init__.py:45]
+2018-07-09 11:55:32,831 ERROR: Exception on / [GET] [in c:\pythonfiles\resume_website\venv\lib\site-packages\flask\app.py:1761]
+Traceback (most recent call last):
+  File "c:\pythonfiles\resume_website\venv\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\pythonfiles\resume_website\venv\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\pythonfiles\resume_website\venv\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\pythonfiles\resume_website\venv\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "c:\pythonfiles\resume_website\venv\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\pythonfiles\resume_website\venv\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Pythonfiles\resume_website\app\routes.py", line 15, in index
+    return render_template('C://Pythonfiles//resume_website//ward-website//app//templates//index.html', form=form)
+  File "c:\pythonfiles\resume_website\venv\lib\site-packages\flask\templating.py", line 134, in render_template
+    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "c:\pythonfiles\resume_website\venv\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "c:\pythonfiles\resume_website\venv\lib\site-packages\jinja2\environment.py", line 830, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "c:\pythonfiles\resume_website\venv\lib\site-packages\jinja2\environment.py", line 804, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "c:\pythonfiles\resume_website\venv\lib\site-packages\jinja2\loaders.py", line 113, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "c:\pythonfiles\resume_website\venv\lib\site-packages\flask\templating.py", line 58, in get_source
+    return self._get_source_fast(environment, template)
+  File "c:\pythonfiles\resume_website\venv\lib\site-packages\flask\templating.py", line 86, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: C://Pythonfiles//resume_website//ward-website//app//templates//index.html
+2018-07-09 11:56:21,166 INFO: Website startup [in C:\Pythonfiles\resume_website\app\__init__.py:45]
+2018-07-09 14:17:36,146 INFO: Website startup [in C:\Pythonfiles\resume_website\app\__init__.py:44]
+2018-07-09 14:18:42,493 INFO: Website startup [in C:\Pythonfiles\resume_website\app\__init__.py:44]
+2018-07-09 14:20:16,610 INFO: Website startup [in C:\Pythonfiles\resume_website\app\__init__.py:44]
