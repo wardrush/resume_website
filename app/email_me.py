@@ -20,7 +20,7 @@ def send_notification_email(name, email, subject, message):
     send_email('[Resume Site] Someone Contacted You!',
                sender=os.environ.get('MAIL_USERNAME'),
                recipients=os.environ.get('MAIL_PERSONAL'),
-               html_body=render_template(url_for('static', filename='contact.html'), name=name, email=email, subject=subject,
-                                         message=message)
+               html_body=render_template(url_for('static', filename='contact.html'), name=name, email=email,
+                                         subject=subject, message=message)
                )
 

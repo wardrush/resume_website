@@ -9,6 +9,7 @@ from app.email_me import send_notification_email
 def index():
     form = ContactForm()
     if form.validate_on_submit():
+        form = ContactForm() # Maybe
         name = form.name.data
         subject = form.subject.data
         email = form.email.data
