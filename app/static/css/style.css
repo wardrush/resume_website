@@ -81,7 +81,7 @@ a:active {
 a:hover,
 a:focus {
     text-decoration : none;
-    color           : #ff9800;
+    color           : #2034c0;
     }
 
 p {
@@ -115,13 +115,13 @@ ul {
 
 /*btn-primary*/
 .btn-primary {
-    background-color : #9b4e0f;
+    background-color : #2a54f5;
     }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active:focus {
-    background : #ff7810;
+    background : #4b41ff;
     }
 
 /*btn-default*/
@@ -371,7 +371,7 @@ button:focus,
     }
 
 .progress-item .progress-bar {
-    background-color : #ff1100;
+    background-color : #2034c0;
     box-shadow       : none;
     text-align       : right;
     }
