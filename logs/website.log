@@ -38,3 +38,7 @@ jinja2.exceptions.TemplateNotFound: C://Pythonfiles//resume_website//ward-websit
 2018-07-09 14:18:42,493 INFO: Website startup [in C:\Pythonfiles\resume_website\app\__init__.py:44]
 2018-07-09 14:20:16,610 INFO: Website startup [in C:\Pythonfiles\resume_website\app\__init__.py:44]
 2018-07-09 14:31:46,300 INFO: Website startup [in C:\Pythonfiles\resume_website\ward-website\app\__init__.py:44]
+2018-07-19 11:57:45,406 INFO: Website startup [in C:\Pythonfiles\resume_website\ward-website\app\__init__.py:44]
+2018-07-19 11:58:24,637 INFO: Website startup [in C:\Pythonfiles\resume_website\ward-website\app\__init__.py:44]
+2018-07-19 11:58:26,421 INFO: Website startup [in C:\Pythonfiles\resume_website\ward-website\app\__init__.py:44]
+2018-07-19 12:00:58,688 INFO: Website startup [in C:\Pythonfiles\resume_website\ward-website\app\__init__.py:44]
