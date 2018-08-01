@@ -3,6 +3,7 @@ from config import Config
 # from flask_bootstrap import Bootstrap
 from flask_mail import Mail
 import logging
+
 from logging.handlers import SMTPHandler, RotatingFileHandler
 import os
 
@@ -27,7 +28,7 @@ if not app.debug:
         app.logger.addHandler(mail_handler)
     if app.config['LOG_TO_STDOUT']:
         stream_handler = logging.StreamHandler()
-        stream_handler.setLevel(logging.info)
+        stream_handler.setLevel(logging.INFO)
         app.logger.addHandler(stream_handler)
     else:
         if not os.path.exists('logs'):

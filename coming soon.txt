@@ -1,0 +1,62 @@
+<!-- Currently Not Working
+<section class="section-contact section-wrapper gray-bg">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Contact Information</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <address>
+                    <strong>Mailing Address</strong><br>
+                    103 24th Ave S<br>
+                    Nashville, TN 37212
+                </address>
+                <address>
+                    <strong>Permanent Address</strong><br>
+                    **** R******** Dr<br>
+                    Dallas, TX 7****
+                </address>
+                <address>
+                    <strong>Mobile Number</strong><br>
+                    (214)-494-0733
+                </address>
+                <address>
+                    <strong>Email</strong><br>
+                    <a href="mailto:wardrushton@gmail.com">wardrushton@gmail.com</a>
+                </address>
+            </div>
+        </div>
+
+    {% block content %}
+        <div class="row">
+            <div class="col-md-12">
+                <div class="feedback-form">
+                    <h2>Get in touch</h2>
+                    <form action="/" method="POST">
+                        <p>{{ form.hidden_tag() }}</p>
+
+                        <p>{{ form.name.label }}</p>
+                        <p>{{ form.name(cols="35") }}</p>
+
+                        <p>{{ form.email.label }}</p>
+                        <p>{{ form.email(cols="35") }}</p>
+
+                        <p>{{ form.subject.label }}</p>
+                        <p>{{ form.subject(cols="35") }}</p>
+
+                        <p>{{ form.message.label }}</p>
+                        <p>{{ form.message(cols="35", rows="5") }}</p>
+
+                        <p>{{ form.submit() }}</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    {% endblock %}
+    </div>
+</section>
+-->

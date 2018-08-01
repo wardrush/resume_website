@@ -4,406 +4,380 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="pragma" content="no-cache">
 
     <title>Ward Rushton</title>
-    <link href={{ url_for('static', filename='favicon.png') }} rel=icon>
-    <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
-    <link href={{ url_for('static', filename='css/font-awesome.min.css') }} rel="stylesheet">
-    <link href={{ url_for('static', filename='css/bootstrap.min.css') }} rel="stylesheet">
-    <link href={{ url_for('static', filename='css/style.css') }} rel="stylesheet">
+    <link href='../static/favicon.png' rel=icon>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,600,700" rel="stylesheet">
+    <link href='../static/css/font-awesome.min.css' rel="stylesheet">
+    <link href='../static/css/bootstrap.min.css' rel="stylesheet">
+    <link href='../static/css/style.css' rel="stylesheet">
 
 </head>
+
+<!-- Beginning of Body -->
 <body id="page-top" data-spy="scroll" data-target=".navbar">
+<!-- Beginning of Main Wrapper -->
 <div id="main-wrapper">
-<div id="preloader">
-    <div id="status">
-        <div class="status-mes"></div>
-    </div>
-</div>
-
-    <!-- Left side profile -->
-<div class="columns-block container">
-<div class="left-col-block blocks">
-    <header class="header theiaStickySidebar">
-        <div class="profile-img">
-            <img src={{ url_for('static', filename = 'img/img-profile.png') }}  class="img-responsive" alt=""/>
-        </div>
-        <div class="content">
-            <h1>James "Ward" Rushton</h1>
-            <span class="lead">Chemical Engineering Student</span>
-            <div class="about-text">
-                <p>Ward is cool. Ward is rad</p>
-                <p>I like to work for pay.</p>
-                <p><img src={{ url_for('static', filename='img/Signature.png') }} alt="Handwritten letters JWR" class="img-responsive"/></p>
-            </div>
-
-            <!-- Use Font Awesome icons -->
-            <ul class="icon-buttons">
-                <li><a href="https://www.linkedin.com/in/ward-rushton"><i class="fa fa-linkedin"
-                                                                          target="_blank"></i></a></li>
-                <li><a href="https://github.com/wardrush"><i class="fa fa-github" target="_blank"></i></a></li>
-                <li><a href="mailto:wardrushton@gmail.com"><i class="fa fa-envelope" target="_blank"></i></a></li>
-            </ul>
-        </div>
-    </header>
-</div>
-
-
-<!-- Blurbs about self -->
-<div class="right-col-block blocks">
-<div class="theiaStickySidebar">
-<section class="expertise-wrapper section-wrapper gray-bg">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h2>Expertise</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="expertise-item">
-                    <h3>Professionally drive</h3>
-                    <p>
-                        Lorem Ipsum.
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="expertise-item">
-                    <h3>Seamlessly leverage </h3>
-                    <p>
-                        Quickly repurpose reliable customer service with orthogonal ideas. Competently.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="expertise-item">
-                    <h3>Interactively incubate</h3>
-                    <p>
-                        Interactively myocardinate high standards in initiatives rather than next-generation.
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="expertise-item">
-                    <h3>Globally streamline</h3>
-                    <p>
-                        Dynamically initiate client-based convergence vis-a-vis performance based. </p>
-                </div>
-            </div>
+    <div id="preloader">
+        <div id="status">
+            <div class="status-mes"></div>
         </div>
     </div>
-</section>
 
-
-<!-- Skills Progress bar -->
-<section class="section-wrapper skills-wrapper">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h2>Skills</h2>
+    <!-- Skills Progress Bar -->
+    <div class="columns-block container">
+        <!-- Left side profile -->
+        <div class="left-col-block blocks">
+            <header class="header theiaStickySidebar">
+                <div class="profile-img">
+                    <img src='../static/img/img-profile.png' class="img-responsive"
+                         alt="Black hexagon with JWR in white lettering"/>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="progress-wrapper">
-                    <div class="progress-item">
-                        <span class="progress-title">Goofing Off</span>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="69" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 62%"><span class="progress-percent"> 69%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-item">
-                        <span class="progress-title">Drinking</span>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 90%"><span class="progress-percent"> 90%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-item">
-                        <span class="progress-title">Dis-Organisational Skills</span>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 75%;"><span class="progress-percent"> 75%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-item">
-                        <span class="progress-title">Crying</span>
 
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 55%;"><span class="progress-percent"> 55%</span>
+
+                <div class="content">
+                    <div class="col-sm-offset-0">
+                        <h1>James &ldquo;Ward&rdquo; Rushton</h1>
+                        <span class="lead">B.E. Chemical Engineering</span><br>
+                        <span class="lead">B.S. Chemistry</span>
+                        <p>Minor: Nanotechnology</p>
+                    </div>
+                </div>
+
+                <!-- Use Font Awesome icons -->
+                <div class="col-sm-offset-0">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/ward-rushton" target="_blank">
+                            <i class="fa fa-linkedin" style="font-size: 2.5em;"></i></a></li>
+                        <li class="list-inline-item"><a href="https://github.com/wardrush" target="_blank">
+                            <i class="fa fa-github" style="font-size: 2.5em;"></i></a></li>
+                        <li class="list-inline-item"><a href="mailto:wardrushton@gmail.com">
+                            <i class="fa fa-envelope" style="font-size: 2.5em;"></i></a></li>
+                    </ul>
+                </div>
+            </header>
+        </div> <!-- End of Left Col Blocks -->
+
+
+        <!-- Start of the Right Panel -->
+        <div class="right-col-block blocks">
+            <!-- Skills Progress Bar -->
+            <section class="section-wrapper skills-wrapper">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-title">
+                                <h2>Skills</h2>
                             </div>
                         </div>
                     </div>
-                    <div class="progress-item">
-                        <span class="progress-title">Sleeping</span>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
-                                 aria-valuemax="100" style="width: 80%;"><span class="progress-percent"> 80%</span>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="progress-wrapper">
+                                <div class="progress-item">
+                                    <span class="progress-title">Microsoft Office</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0"
+                                             aria-valuemax="100" style="width: 95%"><span
+                                                class="progress-percent">Expert</span>
+                                        </div>
+                                    </div>
+                                    <div class="progress-item">
+                                    <span class="progress-title">Matlab</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0"
+                                             aria-valuemax="100" style="width: 95%;"><span
+                                                class="progress-percent">Expert</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress-item">
+                                    <span class="progress-title">Python 3</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0"
+                                             aria-valuemax="100" style="width: 95%"><span
+                                                class="progress-percent">Expert</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="progress-item">
+                                    <span class="progress-title">Arduino</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                                             aria-valuemin="0"
+                                             aria-valuemax="100" style="width: 80%;"><span
+                                                class="progress-percent">Experienced</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress-item">
+                                    <span class="progress-title">Circut Design</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="75"
+                                             aria-valuemin="0"
+                                             aria-valuemax="100" style="width: 75%;"><span
+                                                class="progress-percent">Experienced</span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
+            </section> <!-- End of Progress Bar -->
 
 
-
-<section class="section-wrapper section-experience gray-bg">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title"><h2>Work Experience</h2></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="content-item">
-                    <small>2015 - Present</small>
-                    <h3>Head of market research</h3>
-                    <h4>Computer & Motor Ltd.</h4>
-                    <p>United Kingdom, London</p>
-                </div>
-                <div class="content-item">
-                    <small>2012 - 2015</small>
-                    <h3>Media Analyst</h3>
-                    <h4>BizzNiss</h4>
-                    <p>United Kingdom, London</p>
-                </div>
-                <div class="content-item">
-                    <small>2010 - 2012</small>
-                    <h3>Budget Administrator</h3>
-                    <h4>Somsom LLC</h4>
-                    <p>United Kingdom, London</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section class="section-wrapper section-education">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title"><h2>Education</h2></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="content-item">
-                    <small>2010 - 2012</small>
-                    <h3>MA Product Design</h3>
-                    <h4>University of California</h4>
-                    <p>United Kingdom, London</p>
-                </div>
-                <div class="content-item">
-                    <small>2007 - 2010</small>
-                    <h3>Business marketing course</h3>
-                    <h4>Royal Academy of Business</h4>
-                    <p>United Kingdom, London</p>
-                </div>
-                <div class="content-item">
-                    <small>2002 - 2006</small>
-                    <h3>BA (Hons) Design</h3>
-                    <h4>University of Michigan</h4>
-                    <p>United Kingdom, London</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section class="section-wrapper section-interest gray-bg">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h2>Interest</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="content-item">
-                    <h3>Books</h3>
-                    <p>Proactively extend market-driven e-tailers rather than enterprise-wide supply chains.
-                        Collaboratively embrace 24/7 processes rather than adaptive users. Seamlessly monetize
-                        alternative e-business.</p>
-                </div>
-                <div class="content-item">
-                    <h3>Sports</h3>
-                    <p>Assertively grow optimal methodologies after viral technologies. Appropriately develop
-                        frictionless technology for adaptive functionalities. Competently iterate functionalized
-                        networks for best-of-breed services.</p>
-                </div>
-                <div class="content-item">
-                    <h3>Art</h3>
-                    <p>Dramatically utilize superior infomediaries whereas functional core competencies.
-                        Enthusiastically repurpose synergistic vortals for customer directed portals. Interactively
-                        pursue sustainable leadership via.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section class="section-wrapper portfolio-section">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h2>Portfolio</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <a class="portfolio-item" href="#">
-                    <div class="portfolio-thumb">
-                        <img src={{ url_for('static', filename='img/portfolio-1.jpg') }} alt="">
-                    </div>
-                    <div class="portfolio-info">
-                        <h3>Creative concepts</h3>
-                        <small>domain.com</small>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-6">
-                <a class="portfolio-item" href="#">
-                    <div class="portfolio-thumb">
-                        <img src={{ url_for('static', filename='img/portfolio-2.jpg') }} alt="">
-                    </div>
-                    <div class="portfolio-info">
-                        <h3>Customer focused</h3>
-                        <small>domain.com</small>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-6">
-                <a class="portfolio-item" href="#">
-                    <div class="portfolio-thumb">
-                        <img src={{ url_for('static', filename='img/portfolio-3.jpg') }}  alt="">
-                    </div>
-                    <div class="portfolio-info">
-                        <h3>Management methodology</h3>
-                        <small>domain.com</small>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-6">
-                <a class="portfolio-item" href="#">
-                    <div class="portfolio-thumb">
-                        <img src={{ url_for('static', filename='img/portfolio-4.jpg') }}  alt="">
-                    </div>
-                    <div class="portfolio-info">
-                        <h3>Market research</h3>
-                        <small>domain.com</small>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<section class="section-contact section-wrapper gray-bg">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="section-title">
-                    <h2>Contact Information</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <address>
-                    <strong>Mailing Address</strong><br>
-                    103 24th Ave S<br>
-                    Nashville, TN 37212
-                </address>
-                <address>
-                    <strong>Permanent Address</strong><br>
-                    **** R******** Dr<br>
-                    Dallas, TX 7****
-                </address>
-                <address>
-                    <strong>Mobile Number</strong><br>
-                    (214)-494-0733
-                </address>
-                <address>
-                    <strong>Email</strong><br>
-                    <a href="mailto:#">wardrushton@gmail.com</a>
-                </address>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="feedback-form">
-                    <h2>Get in touch</h2>
-                    <form id="contactForm" action="" method="POST">
-                        <div class="form-group">
-                            <label for="InputName">Name</label>
-                            <input type="text" name="name" required="" class="form-control" id="InputName"
-                                   placeholder="Full Name">
+            <!-- Blurbs about self -->
+            <!--<div class="right-col-block blocks"> -->
+            <div class="theiaStickySidebar">
+                <section class="expertise-wrapper section-wrapper gray-bg">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-title">
+                                    <h2>Expertise</h2>
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="InputEmail">Email address</label>
-                            <input type="email" name="email" required="" class="form-control" id="InputEmail"
-                                   placeholder="Email">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="expertise-item">
+                                    <h3>Automation Engineering</h3>
+                                    <ul style="list-style-type: disc">
+                                        <li>Increase process throughput by reducing human action.</li>
+                                        <li>Experience with robotic arms, regrippers, incubators, and liquid handlers</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="expertise-item">
+                                    <h3>Process Design</h3>
+                                    <ul style="list-style-type: disc">
+                                        <li>Create and implement protein and small molecule production,
+                                            purifcation, and scale-up</li>
+                                        <li>Experience with hands-on wet lab techniques and processes</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="InputSubject">Subject</label>
-                            <input type="text" name="subject" class="form-control" id="InputSubject"
-                                   placeholder="Subject">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="expertise-item">
+                                    <br>
+                                    <h3>Efficiency Analysis</h3>
+                                    <ul style="list-style-type: disc">
+                                        <li>Predict and experimentally optimize production conditions</li>
+                                        <li>e.g. Test different growth media and temperatures to increase efficiency</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="expertise-item">
+                                    <br>
+                                    <h3>Inventory Management</h3>
+                                    <ul style="list-style-type: disc">
+                                        <li>Update database and implement standardized naming conventions for
+                                            more than 13,000 samples</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="message-text" class="control-label">Message</label>
-                            <textarea class="form-control" rows="4" required="" name="message" id="message-text"
-                                      placeholder="Write message"></textarea>
+                    </div>
+                </section> <!-- End of Blurbs -->
+
+                <!-- Experience -->
+                <section class="section-wrapper section-experience gray-bg">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-title"><h2>Work Experience</h2></div>
+                            </div>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="content-item">
+                                    <small>December 2017- Present</small>
+                                    <h3>Efficiency Engineer</h3>
+                                    <h4>Vanderbilt Antibody and Protein Resource</h4>
+                                    <p>Nashville, TN</p>
+                                </div>
+                                <div class="content-item">
+                                    <small>May 2018 - Present</small>
+                                    <h3>Automation Engineer</h3>
+                                    <h4>Vanderbilt High Throughput Screening</h4>
+                                    <p>Nashville, TN</p>
+                                </div>
+                                <div class="content-item">
+                                    <small>May 2017 - Aug 2017</small>
+                                    <h3>Head HVAC-R Engineering Intern</h3>
+                                    <h4>United Mechanical</h4>
+                                    <p>Dallas, TX</p>
+                                </div>
+                                <div class="content-item">
+                                    <small>May 2016 - Aug 2016</small>
+                                    <h3>Data Analysis Intern</h3>
+                                    <h4>Center for Brain Health</h4>
+                                    <p>Dallas, TX</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section> <!-- End of Experience -->
+
+                <!-- Education -->
+                <section class="section-wrapper section-education">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-title"><h2>Education</h2></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="content-item">
+                                    <h2>Vanderbilt University</h2>
+                                    <h3>Majors: Chemical Engineering, Chemistry</h3>
+                                    <h4>Minor: Nanotechnology</h4>
+                                    <small>Nashville, TN</small>
+                                    <small>2016 - 2020</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section> <!-- End of Education -->
+
+                <!-- Portfolio -->
+                <section class="section-wrapper portfolio-section">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-title">
+                                    <h2>Portfolio</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a class="portfolio-item" target="_blank"
+                                   href="https://github.com/wardrush/VandyDJbooth">
+                                    <div class="portfolio-thumb">
+                                        <img alt="Placeholder Image"
+                                             src='../static/img/portfolio-1600.png'>
+                                    </div>
+                                    <div class="portfolio-info">
+                                        <h3>DJ Booth</h3>
+                                        <small>Sound-Reactive DJ Booth</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a class="portfolio-item" target="_blank"
+                                   href="https://github.com/wardrush/stock_analysis">
+                                    <div class="portfolio-thumb">
+                                        <img alt="Placeholder Image"
+                                             src='../static/img/portfolio600x600.PNG'>
+                                    </div>
+                                    <div class="portfolio-info">
+                                        <h3>Stock Analysis</h3>
+                                        <small>Automated stock picker</small>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-md-6">
+                                <a class="portfolio-item" target="_blank"
+                                   href="https://github.com/wardrush/resume_website">
+                                    <div class="portfolio-thumb">
+                                        <img src='../static/img/portfolio-3_600.jpg'  alt="">
+                                    </div>
+                                    <div class="portfolio-info">
+                                        <h3>Personal Website</h3>
+                                        <small>This one</small>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a class="portfolio-item" target="_blank"
+                                   href="#">
+                                    <div class="portfolio-thumb">
+                                        <img src='../static/img/portfolio-1600.png'  alt="">
+                                    </div>
+                                    <div class="portfolio-info">
+                                        <h3>Texas Writer Database</h3>
+                                        <small>domain.com</small>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section> <!-- End of Portfolio -->
+
+                <!-- Interests -->
+                <section class="section-wrapper section-interest gray-bg">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-title">
+                                    <h2>Interests</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="content-item">
+                                    <h3>Technical Theater</h3>
+                                    <ul style="list-style-type:disc">
+                                        <li>Two semesters as technical director for Vanderbilt Off Broadway</li>
+                                        <li>Three Semesters working in technical theater</li>
+                                    </ul>
+                                </div>
+                                <div class="content-item">
+                                    <h3>Water Polo</h3>
+                                    <ul style="list-style-type:disc">
+                                        <li>Two semesters treasurer managing more than $5,000</li>
+                                        <li>Manage team logistics (e.g. Hotel reservations, transportation, food)</li>
+                                    </ul>
+                                </div>
+                                <div class="content-item">
+                                    <h3>Woodworking</h3>
+                                    <ul style="list-style-type:disc">
+                                        <li>High proficiency in wood fabrication and general woodworking techniques</li>
+                                        <li>Three years of wood sculpture</li>
+                                        <li>Five years of furniture building</li>
+                                    </ul>
+                                </div>
+                                <div class="content-item">
+                                    <h3>Business Manager</h3>
+                                    <ul style="list-style-type:disc">
+                                        <li>Two years as business manager for The Original Cast managing more than $80,000
+                                            total&mdash;more than $40,000 each year</li>
+                                        <li>Create and distribute specific budgets to each member of the board for more
+                                            modular management</li>
+                                        <li>Create quick guide for using Vanderbilt's accounting system for general
+                                            student body</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section> <!-- End of Interests -->
+            </div> <!-- End of Sticky Sidebar -->
+        </div> <!-- End of Right Col Blocks -->
+    </div> <!-- End of Blocks -->
 
 
+    <!-- jquery -->
+    <script src='../static/js/jquery-2.1.4.min.js'></script>
 
-</div>
-</div>
-</div>
-</div>
-
-
-<!-- jquery -->
-<script src={{ url_for('static', filename = 'js/jquery-2.1.4.min.js') }}></script>
-
-<!-- Bootstrap -->
-<script src={{ url_for('static', filename = 'js/bootstrap.min.js') }}></script>
-<script src={{ url_for('static', filename = 'js/theia-sticky-sidebar.js') }}></script>
-<script src={{ url_for('static', filename = 'js/scripts.js') }}></script>
-</body>
+    <!-- Bootstrap -->
+    <script src='../static/js/bootstrap.min.js'></script>
+    <script src='../static/js/theia-sticky-sidebar.js'></script>
+    <script src='../static/js/scripts.js'></script>
+</div> <!-- End of Main Wrapper -->
+</body> <!-- End of Body -->
 </html>
